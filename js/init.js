@@ -1,8 +1,8 @@
 	swatches = new App.Collections.Swatches([
 {
-	hex: '#6931891',
-	id: '6931891',
-	name: 'Too good to be true'
+	hex: '#83A2C2',
+	id: '83A2C2',
+	name: 'Paper Water'
 },
 {
 	hex: '#B02800',
