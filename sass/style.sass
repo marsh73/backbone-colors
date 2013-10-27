@@ -1,0 +1,60 @@
+@import compass/css3
+
+
+.swatch
+	width: 200px
+	height: 200px
+	float: left
+	top: -50px
+	color: #000
+	font-size: 24px
+	padding: 50px
+	+border-radius(100px)
+	line-height: 50px
+	border: 1px solid #ccc
+	position: relative
+	button.close
+		font-size: 50px
+		position: absolute
+		bottom: 5%
+		left: 43%
+		&:after
+			+text-shadow(#fff 3px 3px 0)
+
+	.name
+		text-align: center
+		font-size: 18px
+		line-height: 1em
+		color: #fff
+		+text-shadow(rgba(blue, .2) 1px 1px 0, rgba(blue, .2) 2px 2px 0, rgba(blue, .2) 3px 3px 0)
+
+#palette
+	clear: both
+	display: block
+	text-align: center
+
+
+#toolbar
+	height: 100px
+	margin: 10px 0
+	input 
+		border: #ccc 3px solid
+		padding: 10px 20px 
+		font-size: 24px
+		+border-radius(15px)
+		&:focus
+			outline: none
+
+
+
+.btn
+	line-height: 14px
+	display: initial
+	margin: 10px
+	background: #ccc
+
+.error
+	padding: 10px
+	color: red
+	font-size: 18px
+	display: none

@@ -1,0 +1,81 @@
+/* line 4, ../sass/style.sass */
+.swatch {
+  width: 200px;
+  height: 200px;
+  float: left;
+  top: -50px;
+  color: black;
+  font-size: 24px;
+  padding: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  line-height: 50px;
+  border: 1px solid #cccccc;
+  position: relative;
+}
+/* line 16, ../sass/style.sass */
+.swatch button.close {
+  font-size: 50px;
+  position: absolute;
+  bottom: 5%;
+  left: 43%;
+}
+/* line 21, ../sass/style.sass */
+.swatch button.close:after {
+  text-shadow: white 3px 3px 0;
+}
+/* line 24, ../sass/style.sass */
+.swatch .name {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1em;
+  color: white;
+  text-shadow: rgba(0, 0, 255, 0.2) 1px 1px 0, rgba(0, 0, 255, 0.2) 2px 2px 0, rgba(0, 0, 255, 0.2) 3px 3px 0;
+}
+
+/* line 31, ../sass/style.sass */
+#palette {
+  clear: both;
+  display: block;
+  text-align: center;
+}
+
+/* line 37, ../sass/style.sass */
+#toolbar {
+  height: 100px;
+  margin: 10px 0;
+}
+/* line 40, ../sass/style.sass */
+#toolbar input {
+  border: #cccccc 3px solid;
+  padding: 10px 20px;
+  font-size: 24px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 45, ../sass/style.sass */
+#toolbar input:focus {
+  outline: none;
+}
+
+/* line 50, ../sass/style.sass */
+.btn {
+  line-height: 14px;
+  display: initial;
+  margin: 10px;
+  background: #cccccc;
+}
+
+/* line 56, ../sass/style.sass */
+.error {
+  padding: 10px;
+  color: red;
+  font-size: 18px;
+  display: none;
+}

@@ -1,0 +1,83 @@
+#toolbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	z-index: 2;
+	background: #fff;
+}
+
+#toolbar input[type=text] {
+	color: #202020;
+	background: #f0f0f0;
+	border: 0 none;
+	border-radius: 2px;
+	padding: 5px;
+}
+#toolbar input[type=text]:focus {
+	background: #eee;
+	outline: 0;
+}
+
+#toolbar .btn {
+	background: #808080;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 2px;
+}
+
+#toolbar .btn:hover {
+	background: #707070;
+}
+
+#palette {
+	position: fixed;
+	top: 50px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	z-index: 1;
+}
+
+#palette > * {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	box-sizing: border-box;
+}
+
+#palette .swatch {
+	position: absolute;
+	overflow: hidden;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	border-radius: 3px;
+	-webkit-transition: all 2s;
+	   -moz-transition: all 2s;
+	    -ms-transition: all 2s;
+	     -o-transition: all 2s;
+	        transition: all 2s;
+}
+
+#palette .label {
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 50%;
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+body {
+	font-size: 15px;
+	line-height: 22px;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+}
